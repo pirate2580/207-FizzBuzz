@@ -36,7 +36,7 @@ class FizzBuzz {
 //        }
     }
 
-    private static void doFizzBuzz(int i) {
+    public static void doFizzBuzz(int i) {
         if (i %3 == 0 && i %5 == 0){
             System.out.println("Fizz Buzz");
         }
